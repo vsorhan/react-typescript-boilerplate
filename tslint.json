@@ -1,0 +1,17 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "jsRules": {},
+  "rulesDirectory": [],
+  "rules": {
+    "prettier": [true, ".prettierrc"],
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": [true, "dev"]
+  }
+}
